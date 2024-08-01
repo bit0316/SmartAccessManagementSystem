@@ -1,0 +1,6 @@
+ID: 11111111
+Name: One
+Phone: 010-1111-1111
+Birthday: 1111.11.11
+Room: 111
+Client Address: None

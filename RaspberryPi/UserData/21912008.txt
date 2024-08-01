@@ -1,0 +1,6 @@
+ID: 21912008
+Name: Yun Tae Yeon
+Phone: 010-2191-2008
+Birthday: 2000.03.28
+Room: 106
+Client Address: None

@@ -1,0 +1,6 @@
+ID: 21911913
+Name: Yu Hyo Min
+Phone: 010-2191-1913
+Birthday: 2000.12.21
+Room: 109
+Client Address: None

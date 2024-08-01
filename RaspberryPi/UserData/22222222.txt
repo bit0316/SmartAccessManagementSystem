@@ -1,0 +1,6 @@
+ID: 22222222
+Name: Two
+Phone: 010-2222-2222
+Birthday: 2222.22.22
+Room: 222
+Client Address: None
