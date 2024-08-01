@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Smart Access Management System</string>
+    <string name="channel_name">Channel Name</string>
+    <string name="channel_description">Channel Description</string>
+</resources>

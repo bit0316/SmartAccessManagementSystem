@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.yu.smartaccessmanagementsystem.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_centerInParent="false" />
+
+    <EditText
+        android:id="@+id/messageTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_centerInParent="true"
+        android:textSize="24sp"
+        android:inputType="text"
+        android:maxLines="1" />
+
+    <TextView
+        android:id="@+id/responseTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/openButton"
+        android:layout_marginTop="24dp"
+        android:gravity="left"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/connectButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Connect"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_background"
+        android:elevation="4dp"
+        android:layout_below="@id/messageTextView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/onButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="On"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_background"
+        android:elevation="4dp"
+        android:layout_toEndOf="@id/connectButton"
+        android:layout_alignBaseline="@id/connectButton"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/checkButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Check"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_background"
+        android:elevation="4dp"
+        android:layout_below="@id/connectButton"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/openButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Open"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_background"
+        android:elevation="4dp"
+        android:layout_toEndOf="@id/checkButton"
+        android:layout_alignBaseline="@id/checkButton"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
