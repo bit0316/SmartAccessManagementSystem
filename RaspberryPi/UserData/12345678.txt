@@ -1,0 +1,6 @@
+ID: 12345678
+Name: Kim Lee Park
+Phone: 010-1234-5678
+Birthday: 2000.01.23
+Room: 123
+Client Address: None

@@ -1,0 +1,6 @@
+ID: 21912254
+Name: Kim Yeong Ho
+Phone: 010-2191-2254
+Birthday: 2000.03.16
+Room: 307
+Client Address: None
